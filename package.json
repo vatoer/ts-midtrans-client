@@ -1,6 +1,6 @@
 {
   "name": "ts-midtrans-client",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
@@ -9,9 +9,17 @@
     "postbuild": "cp -r types dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["midtrans", "api", "client", "typescript","GPN", "Indonesia"],
+  "author": "vatoer <vatoer@starganteknologi.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vatoer/ts-midtrans-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vatoer/ts-midtrans-client/issues"
+  },
+  "homepage": "https://github.com/vatoer/ts-midtrans-client#readme",
   "devDependencies": {
     "@types/lodash": "^4.17.15",
     "@types/node": "^22.13.5",
